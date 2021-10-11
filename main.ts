@@ -5,8 +5,8 @@ input.onButtonPressed(Button.A, function () {
     for (let index = 0; index <= contar; index++) {
         basic.showNumber(index)
         for (let index2 = 0; index2 < index; index2++) {
-            music.playTone(262, music.beat(BeatFraction.Half))
-            basic.pause(500)
+            music.playTone(262, music.beat(BeatFraction.Whole))
+            basic.pause(100)
         }
         basic.clearScreen()
     }
